@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Mephis.App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Mephis.App"
+    xmlns:views="clr-namespace:Mephis.App.Views"
+    Title="Mephis.App">
+
+    <ShellContent Title="Профиль" ContentTemplate="{DataTemplate views:ProfilePage}" Route="ProfilePage" />
+
+</Shell>
